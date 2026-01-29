@@ -1,0 +1,85 @@
+﻿Donor,Group,Draw Date Time,Received Date Time,Transit Time,Transit Hours,Transit Days,Transit Days Bin
+Tasso ID 01,Vein PBMC,8/30/22 8:35,,,,,
+Tasso ID 02,Vein PBMC,8/17/22 10:00,,,,,
+Tasso ID 03,Vein PBMC,8/30/22 8:55,,,,,
+Tasso ID 04,Vein PBMC,8/30/22 10:28,,,,,
+Tasso ID 05,Vein PBMC,9/26/22 11:39,,,,,
+Tasso ID 06,Vein PBMC,9/19/22 8:29,,,,,
+Tasso ID 07,Vein PBMC,9/27/22 11:20,,,,,
+Tasso ID 08,Vein PBMC,9/20/22 9:10,,,,,
+Tasso ID 09,Vein PBMC,9/12/22 8:39,,,,,
+Tasso ID 10,Vein PBMC,9/19/22 9:23,,,,,
+Tasso ID 11,Vein PBMC,9/6/22 8:03,,,,,
+Tasso ID 12,Vein PBMC,9/26/22 11:53,,,,,
+Tasso ID 13,Vein PBMC,9/12/22 10:52,,,,,
+Tasso ID 14,Vein PBMC,9/19/22 11:16,,,,,
+Tasso ID 15,Vein PBMC,9/6/22 11:03,,,,,
+Tasso ID 16,Vein PBMC,NA,,,,,
+Tasso ID 17,Vein PBMC,9/20/22 8:23,,,,,
+Tasso ID 18,Vein PBMC,9/27/22 8:45,,,,,
+Tasso ID 19,Vein PBMC,9/19/22 10:00,,,,,
+Tasso ID 20,Vein PBMC,9/20/22 9:06,,,,,
+Tasso ID 21,Vein PBMC,9/27/22 10:37,,,,,
+Tasso ID 01,Vein WB,8/30/22 8:35,,,,,
+Tasso ID 02,Vein WB,8/17/22 10:00,,,,,
+Tasso ID 03,Vein WB,8/30/22 8:55,,,,,
+Tasso ID 04,Vein WB,8/30/22 10:28,,,,,
+Tasso ID 05,Vein WB,9/26/22 11:39,,,,,
+Tasso ID 06,Vein WB,9/19/22 8:29,,,,,
+Tasso ID 07,Vein WB,9/27/22 11:20,,,,,
+Tasso ID 08,Vein WB,9/20/22 9:10,,,,,
+Tasso ID 09,Vein WB,9/12/22 8:39,,,,,
+Tasso ID 10,Vein WB,9/19/22 9:23,,,,,
+Tasso ID 11,Vein WB,9/6/22 8:03,,,,,
+Tasso ID 12,Vein WB,9/26/22 11:53,,,,,
+Tasso ID 13,Vein WB,9/12/22 10:52,,,,,
+Tasso ID 14,Vein WB,9/19/22 11:16,,,,,
+Tasso ID 15,Vein WB,9/6/22 11:03,,,,,
+Tasso ID 16,Vein WB,NA,,,,,
+Tasso ID 17,Vein WB,9/20/22 8:23,,,,,
+Tasso ID 18,Vein WB,9/27/22 8:45,,,,,
+Tasso ID 19,Vein WB,9/19/22 10:00,,,,,
+Tasso ID 20,Vein WB,9/20/22 9:06,,,,,
+Tasso ID 21,Vein WB,9/27/22 10:37,,,,,
+Tasso ID 01,Tasso WB,8/30/22 8:43,,,,,
+Tasso ID 02,Tasso WB,8/17/22 10:00,,,,,
+Tasso ID 03,Tasso WB,8/30/22 9:00,,,,,
+Tasso ID 04,Tasso WB,8/30/22 10:33,,,,,
+Tasso ID 05,Tasso WB,9/26/22 11:49,,,,,
+Tasso ID 06,Tasso WB,9/19/22 8:34,,,,,
+Tasso ID 07,Tasso WB,9/27/22 11:30,,,,,
+Tasso ID 08,Tasso WB,9/20/22 9:01,,,,,
+Tasso ID 09,Tasso WB,9/12/22 8:46,,,,,
+Tasso ID 10,Tasso WB,9/19/22 9:28,,,,,
+Tasso ID 11,Tasso WB,9/6/22 8:09,,,,,
+Tasso ID 12,Tasso WB,9/26/22 12:07,,,,,
+Tasso ID 13,Tasso WB,9/12/22 10:59,,,,,
+Tasso ID 14,Tasso WB,9/19/22 11:23,,,,,
+Tasso ID 15,Tasso WB,9/6/22 11:26,,,,,
+Tasso ID 16,Tasso WB,NA,,,,,
+Tasso ID 17,Tasso WB,9/20/22 8:39,,,,,
+Tasso ID 18,Tasso WB,9/27/22 8:53,,,,,
+Tasso ID 19,Tasso WB,9/19/22 10:07,,,,,
+Tasso ID 20,Tasso WB,9/20/22 9:15,,,,,
+Tasso ID 21,Tasso WB,9/27/22 10:45,,,,,
+Tasso ID 01,Tasso WB Shipped,8/30/22 8:45,9/1/22 8:45,48:00:00,48,2,2
+Tasso ID 02,Tasso WB Shipped,8/17/22 10:00,8/19/22 10:00,48:00:00,48,2,2
+Tasso ID 03,Tasso WB Shipped,8/30/22 9:00,9/1/22 9:00,48:00:00,48,2,2
+Tasso ID 04,Tasso WB Shipped,8/30/22 10:33,9/1/22 10:33,48:00:00,48,2,2
+Tasso ID 05,Tasso WB Shipped,9/26/22 16:09,9/27/22 10:00,17:51:00,17.85,0.74,0
+Tasso ID 06,Tasso WB Shipped,9/19/22 14:30,9/21/22 10:00,43:30:00,43.5,1.81,1
+Tasso ID 07,Tasso WB Shipped,9/28/22 11:10,10/3/22 10:00,118:50:00,118.83,4.95,4
+Tasso ID 08,Tasso WB Shipped,9/20/22 18:01,9/21/22 10:00,15:59:00,15.98,0.67,0
+Tasso ID 09,Tasso WB Shipped,9/12/22 17:28,9/13/22 10:00,16:32:00,16.53,0.69,0
+Tasso ID 10,Tasso WB Shipped,9/19/22 17:30,9/21/22 10:00,40:30:00,40.5,1.69,1
+Tasso ID 11,Tasso WB Shipped,9/6/22 17:17,9/9/22 10:00,64:43:00,64.72,2.7,2
+Tasso ID 12,Tasso WB Shipped,9/26/22 19:19,9/28/22 10:00,38:41:00,38.68,1.61,1
+Tasso ID 13,Tasso WB Shipped,9/12/22 13:31,9/14/22 10:00,44:29:00,44.48,1.85,1
+Tasso ID 14,Tasso WB Shipped,9/19/22 17:51,9/22/22 10:00,64:09:00,64.15,2.67,2
+Tasso ID 15,Tasso WB Shipped,9/6/22 16:30,9/8/22 10:00,41:30:00,41.5,1.73,1
+Tasso ID 16,Tasso WB Shipped,NA,NA,NA,NA,NA,NA
+Tasso ID 17,Tasso WB Shipped,9/20/22 11:40,9/21/22 10:00,22:20:00,22.33,0.93,0
+Tasso ID 18,Tasso WB Shipped,9/27/22 13:08,9/29/22 10:00,44:52:00,44.87,1.87,1
+Tasso ID 19,Tasso WB Shipped,9/19/22 13:56,9/21/22 10:00,44:04:00,44.07,1.84,1
+Tasso ID 20,Tasso WB Shipped,9/21/22 7:30,9/22/22 10:00,26:30:00,26.5,1.1,1
+Tasso ID 21,Tasso WB Shipped,9/27/22 19:03,9/29/22 10:00,38:57:00,38.95,1.62,1
