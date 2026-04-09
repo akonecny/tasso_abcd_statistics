@@ -2010,7 +2010,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   plotlist <- purrr::pmap(
     .l = list(
@@ -2400,7 +2400,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   plotlist <- purrr::pmap(
     .l = list(
@@ -2582,7 +2582,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   # plotlist <- purrr::pmap(
   #   .l = list(
@@ -2790,7 +2790,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   # plotlist <- purrr::pmap(
   #   .l = list(
@@ -2998,7 +2998,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   # plotlist <- purrr::pmap(
   #   .l = list(
@@ -3126,7 +3126,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   # plotlist <- purrr::pmap(
   #   .l = list(
@@ -3251,7 +3251,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   # plotlist <- purrr::pmap(
   #   .l = list(
@@ -3376,7 +3376,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   # plotlist <- purrr::pmap(
   #   .l = list(
@@ -4176,7 +4176,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   plotlist <- purrr::pmap(
     .l = list(
@@ -4566,7 +4566,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   plotlist <- purrr::pmap(
     .l = list(
@@ -4748,7 +4748,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   # plotlist <- purrr::pmap(
   #   .l = list(
@@ -4956,7 +4956,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   # plotlist <- purrr::pmap(
   #   .l = list(
@@ -5164,7 +5164,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   # plotlist <- purrr::pmap(
   #   .l = list(
@@ -5292,7 +5292,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   # plotlist <- purrr::pmap(
   #   .l = list(
@@ -5417,7 +5417,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   # plotlist <- purrr::pmap(
   #   .l = list(
@@ -5542,7 +5542,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
   # plotlist <- purrr::pmap(
   #   .l = list(
@@ -5850,7 +5850,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
 
   
@@ -6096,7 +6096,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
 
   
@@ -6362,7 +6362,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
 
   
@@ -6524,7 +6524,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
 
   
@@ -6769,7 +6769,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
 
   
@@ -6932,7 +6932,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
 
   
@@ -7095,7 +7095,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
 
   
@@ -7254,7 +7254,7 @@ for (i in unique(data_phen_all_selected$Population)){
   
   current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sum_rm_na) == 0]] #removes columns where the selected samples have no values for a parameter
   
-    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, fucks up ggstatplot otherwise
+    current_plot_cols_names <- plot_cols_names[plot_cols_names %notin% plot_cols_names[sapply(data.plot[plot_cols_names], sd) == 0]] #removes columns where there is no differences, messes up ggstatplot otherwise
   
 
   
